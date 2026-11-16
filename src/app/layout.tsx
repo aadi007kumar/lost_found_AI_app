@@ -7,7 +7,7 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const newsreader = Newsreader({ variable: "--font-newsreader", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Khoya Paya · Lost & Found India",
+  title: "Reunite · Lost & Found India",
   description: "Report what you lost or found anywhere in India. AI finds likely matches.",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col">
         <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-5">
           <Link href="/" className="font-serif text-xl tracking-tight">
-            Khoya Paya
+            Reunite
           </Link>
           <nav className="flex gap-5 text-sm text-muted">
             <Link href="/report?type=lost" className="transition-colors duration-150 hover:text-fg">

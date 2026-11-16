@@ -4,7 +4,7 @@
 <marker id="ah-s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#1F1E1B"/></marker>
 </defs>
 <rect width="1700" height="1120" fill="#FAF9F5"/>
-<text x="30" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1F1E1B" font-weight="normal" text-anchor="start" font-style="normal">Khoya Paya · Lost &amp; Found India — Architecture &amp; Data Flow</text>
+<text x="30" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1F1E1B" font-weight="normal" text-anchor="start" font-style="normal">Reunite · Lost &amp; Found India — Architecture &amp; Data Flow</text>
 <text x="30" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Next.js on Vercel · Neon Postgres + pgvector · Vercel Blob · Groq vision · Cloudflare Workers AI embeddings</text>
 <rect x="20" y="95" width="290" height="800" rx="18" fill="#F2EFE6" stroke="#DDD8CC"/>
 <text x="40" y="125" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">User</text>

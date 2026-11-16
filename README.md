@@ -1,4 +1,6 @@
-# Khoya Paya · AI-Powered Pan-India Lost & Found
+# Reunite · AI-Powered Pan-India Lost & Found
+
+*Helping lost things find their way home.*
 
 Report something you lost or found anywhere in India. AI compares your report with every
 opposite report (lost ↔ found) by **object, description, photo, place and date**, and shows the
