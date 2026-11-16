@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #faf9f5;
+  --card: #ffffff;
+  --fg: #1f1e1b;
+  --muted: #6f6a5f;
+  --line: #e8e4da;
+  --accent: #c96442;
+  --accent-hover: #b4583a;
+  --accent-fg: #ffffff;
+  --soft: #f2efe6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #262624;
+    --card: #30302e;
+    --fg: #f5f4ee;
+    --muted: #a8a296;
+    --line: #3e3d39;
+    --accent: #d97757;
+    --accent-hover: #e08a6d;
+    --accent-fg: #1f1e1b;
+    --soft: #2c2c2a;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-fg: var(--accent-fg);
+  --color-soft: var(--soft);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-newsreader);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+/* Gentle entrance for page content */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.rise-1 { animation-delay: 60ms; }
+.rise-2 { animation-delay: 120ms; }
+.rise-3 { animation-delay: 180ms; }
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+}

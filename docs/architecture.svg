@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1120" viewBox="0 0 1700 1120">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F1E1B"/></marker>
+<marker id="ah-s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#1F1E1B"/></marker>
+</defs>
+<rect width="1700" height="1120" fill="#FAF9F5"/>
+<text x="30" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1F1E1B" font-weight="normal" text-anchor="start" font-style="normal">Khoya Paya · Lost &amp; Found India — Architecture &amp; Data Flow</text>
+<text x="30" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Next.js on Vercel · Neon Postgres + pgvector · Vercel Blob · Groq vision · Cloudflare Workers AI embeddings</text>
+<rect x="20" y="95" width="290" height="800" rx="18" fill="#F2EFE6" stroke="#DDD8CC"/>
+<text x="40" y="125" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">User</text>
+<text x="40" y="145" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Browser / phone</text>
+<rect x="330" y="95" width="830" height="800" rx="18" fill="#F2EFE6" stroke="#DDD8CC"/>
+<text x="350" y="125" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Vercel · Next.js 16 (App Router)</text>
+<text x="350" y="145" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Serverless functions in sin1 (Singapore) · all AI &amp; DB calls are server-only</text>
+<rect x="1180" y="95" width="500" height="800" rx="18" fill="#F2EFE6" stroke="#DDD8CC"/>
+<text x="1200" y="125" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Managed services</text>
+<text x="1200" y="145" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Free tiers · reached over HTTPS</text>
+<rect x="40" y="160" width="250" height="70" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="56" y="190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Home  /</text>
+<text x="56" y="212" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">“I lost” / “I found” buttons</text>
+<rect x="40" y="250" width="250" height="220" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="56" y="280" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Report form  /report</text>
+<text x="56" y="302" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Lost / Found toggle (synced to URL)</text>
+<text x="56" y="320" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Title, category, description</text>
+<text x="56" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">State · city · landmark · date</text>
+<text x="56" y="356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Contact name, phone, email</text>
+<text x="56" y="374" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Photo drop → resized to</text>
+<text x="56" y="392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">≤1600px JPEG in the browser</text>
+<rect x="40" y="560" width="250" height="210" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="56" y="590" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Report page  /items/[id]</text>
+<text x="56" y="612" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Report + “AI saw” caption</text>
+<text x="56" y="630" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Possible matches (score %,</text>
+<text x="56" y="648" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">reason chips, tap-to-call)</text>
+<text x="56" y="666" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Other reports nearby</text>
+<text x="56" y="684" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">“Your report is live · Copy link”</text>
+<text x="56" y="702" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">No login: the link is the key</text>
+<rect x="360" y="160" width="280" height="360" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="376" y="190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Server Action  createReport()</text>
+<text x="376" y="212" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">app/actions.ts</text>
+<text x="376" y="230" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal"></text>
+<text x="376" y="248" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">1. Validate fields</text>
+<text x="376" y="266" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">2. Normalise city (Bombay→Mumbai)</text>
+<text x="376" y="284" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">    and phone (+91 removed)</text>
+<text x="376" y="302" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">3. Upload photo</text>
+<text x="376" y="320" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">4. Caption photo (Groq)</text>
+<text x="376" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">5. Embed text (Cloudflare)</text>
+<text x="376" y="356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">6. INSERT row + vector</text>
+<text x="376" y="374" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">7. Redirect to report page</text>
+<text x="376" y="392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal"></text>
+<text x="376" y="410" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">AI failure never blocks saving:</text>
+<text x="376" y="428" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">caption/vector stay null and</text>
+<text x="376" y="446" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">are retried on page view</text>
+<rect x="360" y="560" width="280" height="210" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="376" y="590" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Server Component  /items/[id]</text>
+<text x="376" y="612" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">app/items/[id]/page.tsx</text>
+<text x="376" y="630" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal"></text>
+<text x="376" y="648" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">getItem(id)</text>
+<text x="376" y="666" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">&lt;Suspense&gt; streams the</text>
+<text x="376" y="684" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">“Finding matches…” state,</text>
+<text x="376" y="702" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">then match cards + nearby</text>
+<text x="376" y="720" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Photos via next/image</text>
+<rect x="790" y="255" width="340" height="100" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<rect x="790" y="269" width="4" height="22" rx="2" fill="#F55036"/>
+<text x="806" y="285" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">lib/ai/groq.ts  captionImage()</text>
+<text x="806" y="307" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Random start key from GROQ_API_KEYS</text>
+<text x="806" y="325" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">429 / 5xx / timeout → wait Retry-After</text>
+<text x="806" y="343" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">or 1s·2s·4s → next key · max 4 tries</text>
+<rect x="790" y="370" width="340" height="100" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<rect x="790" y="384" width="4" height="22" rx="2" fill="#F38020"/>
+<text x="806" y="400" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">lib/ai/embed.ts  embed()</text>
+<text x="806" y="422" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">text = category: title. description.</text>
+<text x="806" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Photo: caption. Place: landmark, city</text>
+<text x="806" y="458" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">→ 1024 numbers (1 retry, 10s timeout)</text>
+<rect x="790" y="560" width="340" height="210" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="806" y="590" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">lib/matching.ts</text>
+<text x="806" y="612" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">findMatches(item)</text>
+<text x="806" y="630" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">  meaning = rescale(cosine, 0.5→0, 0.85→1)</text>
+<text x="806" y="648" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">  place = 1 same city · 0.5 same state · 0</text>
+<text x="806" y="666" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">  time = 1 same day → 0 at 30 days</text>
+<text x="806" y="684" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">  score = 0.6·meaning + 0.2·place + 0.2·time</text>
+<text x="806" y="702" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">  keep cosine ≥ 0.6 and score ≥ 40%, top 5</text>
+<text x="806" y="720" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">findNearby(item)  same state, ±30 days</text>
+<text x="806" y="738" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">enrich(item)  caption + embed if missing</text>
+<rect x="360" y="795" width="770" height="80" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="376" y="825" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Vercel Environment Variables (server only)</text>
+<text x="376" y="847" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">DATABASE_URL · BLOB_READ_WRITE_TOKEN · GROQ_API_KEYS (comma-separated) · CF_ACCOUNT_ID · CF_API_TOKEN</text>
+<text x="376" y="865" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Local dev: npx vercel env pull .env.local</text>
+<rect x="1200" y="160" width="460" height="80" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<rect x="1200" y="174" width="4" height="22" rx="2" fill="#1F1E1B"/>
+<text x="1216" y="190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Vercel Blob</text>
+<text x="1216" y="212" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Public photo store (items/*.jpg) · serves images to the browser</text>
+<rect x="1200" y="255" width="460" height="100" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<rect x="1200" y="269" width="4" height="22" rx="2" fill="#F55036"/>
+<text x="1216" y="285" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Groq  ·  vision LLM</text>
+<text x="1216" y="307" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">qwen/qwen3.8-27b, reasoning off</text>
+<text x="1216" y="325" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Photo URL → one-line caption</text>
+<text x="1216" y="343" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">“Black leather bifold wallet, cracked corner…”</text>
+<rect x="1200" y="370" width="460" height="100" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<rect x="1200" y="384" width="4" height="22" rx="2" fill="#F38020"/>
+<text x="1216" y="400" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Cloudflare Workers AI  ·  embeddings</text>
+<text x="1216" y="422" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">@cf/qwen/qwen3-embedding-0.6b (REST API)</text>
+<text x="1216" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Text → 1024-dim vector</text>
+<text x="1216" y="458" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">Similar meaning → nearby vectors</text>
+<rect x="1200" y="495" width="460" height="380" rx="12" fill="#FFFFFF" stroke="#DDD8CC"/>
+<rect x="1200" y="509" width="4" height="22" rx="2" fill="#1A9E6B"/>
+<text x="1216" y="525" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Neon Postgres + pgvector</text>
+<text x="1216" y="547" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">One table: items</text>
+<text x="1216" y="565" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal"></text>
+<text x="1216" y="583" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">id · type (lost | found) · title · category</text>
+<text x="1216" y="601" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">description · image_url · image_caption</text>
+<text x="1216" y="619" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">state · city · place · event_date</text>
+<text x="1216" y="637" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">contact_name · contact_phone · contact_email</text>
+<text x="1216" y="655" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">embedding vector(1024) · created_at</text>
+<text x="1216" y="673" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal"></text>
+<text x="1216" y="691" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">HNSW index (vector_cosine_ops)</text>
+<text x="1216" y="709" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal"></text>
+<text x="1216" y="727" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#4A463E" font-weight="normal" text-anchor="start" font-style="normal">select …, 1 - (embedding &lt;=&gt; $v) as similarity</text>
+<text x="1216" y="745" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#4A463E" font-weight="normal" text-anchor="start" font-style="normal">where type = opposite</text>
+<text x="1216" y="763" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#4A463E" font-weight="normal" text-anchor="start" font-style="normal">  and event_date within ±30 days</text>
+<text x="1216" y="781" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#4A463E" font-weight="normal" text-anchor="start" font-style="normal">order by embedding &lt;=&gt; $v  limit 20</text>
+<path d="M 290 330 L 360 330" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="325" cy="316" r="11" fill="#C96442"/>
+<text x="325" y="320.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">1</text>
+<path d="M 640 200 L 1200 200" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)" marker-start="url(#ah-s)"/>
+<circle cx="700" cy="200" r="11" fill="#C96442"/>
+<text x="700" y="204.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">2</text>
+<text x="760" y="192" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">photo  →</text>
+<text x="1060" y="216" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">←  public URL</text>
+<path d="M 640 305 L 790 305" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="690" cy="305" r="11" fill="#C96442"/>
+<text x="690" y="309.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">3</text>
+<text x="715" y="297" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">URL</text>
+<path d="M 1130 305 L 1200 305" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)" marker-start="url(#ah-s)"/>
+<text x="1135" y="297" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">caption</text>
+<path d="M 640 420 L 790 420" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="690" cy="420" r="11" fill="#C96442"/>
+<text x="690" y="424.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">4</text>
+<text x="712" y="412" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">text</text>
+<path d="M 1130 420 L 1200 420" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)" marker-start="url(#ah-s)"/>
+<text x="1137" y="412" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">vector</text>
+<path d="M 640 505 L 1200 505" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="700" cy="505" r="11" fill="#C96442"/>
+<text x="700" y="509.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">5</text>
+<text x="730" y="497" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">INSERT report row + embedding</text>
+<path d="M 500 520 L 500 560" fill="none" stroke="#1F1E1B" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+<circle cx="522" cy="540" r="11" fill="#C96442"/>
+<text x="522" y="544.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">6</text>
+<text x="540" y="545" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">redirect /items/[id]?new=1</text>
+<path d="M 640 620 L 790 620" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="690" cy="620" r="11" fill="#C96442"/>
+<text x="690" y="624.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">7</text>
+<text x="705" y="610" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">findMatches</text>
+<path d="M 1130 640 L 1200 640" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)" marker-start="url(#ah-s)"/>
+<circle cx="1165" cy="660" r="11" fill="#C96442"/>
+<text x="1165" y="664.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">8</text>
+<path d="M 790 700 L 640 700" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="715" cy="700" r="11" fill="#C96442"/>
+<text x="715" y="704.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">9</text>
+<text x="660" y="722" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">top 5 + nearby</text>
+<path d="M 360 665 L 290 665" fill="none" stroke="#1F1E1B" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="325" cy="650" r="11" fill="#C96442"/>
+<text x="325" y="654.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-style="normal">10</text>
+<path d="M 960 560 L 960 470" fill="none" stroke="#1F1E1B" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+<text x="970" y="525" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="italic">retry enrich() if vector missing</text>
+<rect x="20" y="915" width="1660" height="190" rx="18" fill="#FFFFFF" stroke="#DDD8CC"/>
+<text x="40" y="947" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Posting a report</text>
+<text x="40" y="973" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">① Browser submits the form (photo already shrunk) to the createReport server action</text>
+<text x="40" y="995" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">② Photo is stored in Vercel Blob; its public URL comes back</text>
+<text x="40" y="1017" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">③ Groq vision describes the photo in one line (key rotation on rate limits)</text>
+<text x="40" y="1039" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">④ Cloudflare turns title + category + description + caption + place into a vector</text>
+<text x="40" y="1061" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">⑤ Row and vector are saved in Neon   ⑥ User is redirected to their report page</text>
+<text x="880" y="947" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#1F1E1B" font-weight="600" text-anchor="start" font-style="normal">Showing matches (fresh on every page view)</text>
+<text x="880" y="973" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">⑦ Page asks matching.ts for matches of the opposite type (lost ↔ found)</text>
+<text x="880" y="995" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">⑧ pgvector finds the 20 nearest reports within ±30 days; rows come back</text>
+<text x="880" y="1017" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">⑨ Scored on meaning 60% · place 20% · time 20%; top 5 at ≥40%, plus nearby reports</text>
+<text x="880" y="1039" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">⑩ Page streams match cards with photos, reasons and contact details to the browser</text>
+<text x="880" y="1061" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6F6A5F" font-weight="normal" text-anchor="start" font-style="normal">New reports from others appear automatically the next time the page is opened</text>
+</svg>
